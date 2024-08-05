@@ -1,0 +1,36 @@
+﻿3 different (skeletal) animations to my player: 
+* Idle animation in Assets/Animation/Character/Idle
+* Walking animation in Assets/Animation/Character/Walking
+* Jumping animation in Assets/Animation/Character/Jumping
+   -> Code for transitions in Assets/Scripts/PlayerMovement
+
+
+2 different animations to an NPC:
+* Floating (movement) animation in Assets/Animation/Enemies/Ghost/Floating
+   * NPC placed in Room1
+* Librarian idle (sprite) animation in Assets/Animation/Towners/Librarian 
+   * NPC placed in Room2
+
+
+2 different menu animations:
+* Rotation Animation on Settings Menu Button in Assets/Scripts/SettingsMenu
+* Expand & Collapse Animation in Assets/Scripts/SettingsMenu
+
+
+Background music:
+* In Assets/Sound/horror-background-atmosphere-6-199279
+   * Audio Source GameObject is called BackgroundMusic
+
+
+2 Sounds triggered by certain events:
+* Slurping on collecting milk in Assets/Sound/cartoon-slurp-37066
+   * Code in Assets/Scripts/HealthCollectable
+* Clinking on collecting gold in Assets/Sound/collectcoin-6075
+   * Code in Assets/Scripts/PointCollectable
+
+
+Bonus:
+* Clicking sound on buttons in Assets/Sound/analog-appliance-button-15-186961 
+   * Code in Assets/Scripts/SettingsMenu
+* Door opening sound in Assets/Sound/dorm-door-opening-6038
+   * Code in Assets/Scripts/Door
